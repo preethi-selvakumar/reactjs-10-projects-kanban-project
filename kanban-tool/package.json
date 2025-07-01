@@ -1,4 +1,11 @@
 {
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "vercel-build": "npm install --legacy-peer-deps && vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
+}
   "name": "kanban-tool",
   "private": true,
   "version": "0.0.0",
